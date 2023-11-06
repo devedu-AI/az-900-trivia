@@ -1,0 +1,34 @@
+{
+    "questions": [
+        {
+            "question": "When you implement a Saas solution, you are responsible for ?",
+            "choices": [
+                "Installing patches on OS", 
+                "Configuring high availibility", 
+                "Configuring the Saas Solution", 
+                "Intsall the Saas solution"
+            ],
+            "correctAnswerIndex": 2
+        },
+        {
+            "question": "Which of the following describes the benefit of Cloud Services?",
+            "choices": [
+                "Economies of Scale", 
+                "Fixed Workloads", 
+                "Unpredictable Costs",
+                "OnPrem Everything"
+            ],
+            "correctAnswerIndex": 0
+        },
+        {
+            "question": "What is meant by spending money upfont and then deducting the expense overtime?",
+            "choices": [
+                "Capital Expenditure", 
+                "Operational Expenditure", 
+                "Supply and Demand", 
+                "Capital Flow"
+            ],
+            "correctAnswerIndex": 0
+        }
+    ]
+}
