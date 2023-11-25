@@ -29,6 +29,342 @@
                 "Capital Flow"
             ],
             "correctAnswerIndex": 0
+        },
+        {
+            "question": "You have an on-prem network of several servers. You plan to migrate all Servers on Azure. Recommend a solution that some of the servers should be available if a single azure data center goes offline for an extended period of time ?",
+            "choices": [
+                "Availibility Set", 
+                "Fault Tolerance", 
+                "Scalability", 
+                "Elasticity",
+                "Low Latency"
+            ],
+            "correctAnswerIndex": 1
+        },
+        {
+            "question": "In Azure, what do you understand by Application avaibility",
+            "choices": [
+                "Application is available to high end users", 
+                "The individual SLA of each resource", 
+                "The overall time that a system is functional and working"
+            ],
+            "correctAnswerIndex": 2
+        },
+        {
+            "question": "your company plans to start using azure and will migrate all its network resources to azure. You need to start the planning process by exploring Azure. What should you create first ?",
+            "choices": [
+                "A subscription", 
+                "A resource network group", 
+                "A virtual network",
+                "A management group"
+            ],
+            "correctAnswerIndex": 0
+        },
+        {
+            "question": "You plan to build and enterprise data warehouse in Azure to perform business data analysis. The requirement is to build and integrated environment that will support development of end-to-end analytical solutions. Which service should you use for this?",
+            "choices": [
+                "Azure Machine Learning", 
+                "Azure Synapse Analytics", 
+                "Azure Database for PostgreSQL"
+            ],
+            "correctAnswerIndex": 1
+        },
+        {
+            "question": "You are a data engineer for a team. An application uses a NoSQL database to store data. The db uses key-value NoSQL database type. Developers need to access data in the database using an API. Which API will you use",
+            "choices": [
+                "MongoDB API", 
+                "Table API", 
+                "Azure API"
+            ],
+            "correctAnswerIndex": 0
+        },
+        {
+            "question": "A Hybrid cloud is part of Public Cloud",
+            "choices": [
+                "Yes", 
+                "No"
+            ],
+            "correctAnswerIndex": 1
+        },
+        {
+            "question": "A Public cloud is part of Hybrid Cloud",
+            "choices": [
+                "Yes", 
+                "No"
+            ],
+            "correctAnswerIndex": 0
+        },
+        {
+            "question": "You have an on-prem network that contains 100 servers. Recommend a solution that provides additional resources to your users. The solution must minimize capital and Operational expenditure costs. What should you recommend ?",
+            "choices": [
+                "A complete migration to the public cloud", 
+                "An aditional data center",    
+                "A private cloud",    
+                "A hybrid cloud"    
+            ],
+            "correctAnswerIndex": 3
+        },
+        {
+            "question": "Define Avaibility Set ?",
+            "choices": [
+                "Group of instances of your application in an avaibility zone", 
+                "A logical grouping of VMs that allows Azure to understand how app is built to provide redundancy and avaibility.",
+                "Set of resources"
+            ],
+            "correctAnswerIndex": 1
+        },
+        {
+            "question": "Your company plans to deploy an Artificial Intelligence solution in Azure. What should be used to build, test and deploy predictive solutions?",
+            "choices": [
+                "Azure Logic Apps", 
+                "Azure Machine Learning Studio",
+                "Azure Batch",
+                "Azure Cosmos DB"
+            ],
+            "correctAnswerIndex": 1
+        },
+        {
+            "question": "Which Azure service should you use to correlate events from multiple resources into centralized repository",
+            "choices": [
+                "Azure Event Hubs", 
+                "Azure Analysis Services",
+                "Azure Monitor",
+                "Azure Log Analytics"
+            ],
+            "correctAnswerIndex": 3
+        },
+        {
+            "question": "Your Azure environment containes multiple Azure Virtual Machines. You need to ensure that a virtual machine named VM1 is accessible from the internet over HTTP. *** Solution: You modify an Azure firewall. does this meet the goal ?",
+            "choices": [
+                "Yes", 
+                "No"
+            ],
+            "correctAnswerIndex": 0
+        },
+        {
+            "question": "Your Azure environment containes multiple Azure Virtual Machines. You need to ensure that a virtual machine named VM1 is accessible from the internet over HTTP. *** Solution: You modify a DDos protection plan. does this meet the goal ?",
+            "choices": [
+                "Yes", 
+                "No"
+            ],
+            "correctAnswerIndex": 1
+        },
+        {
+            "question": "Your Azure environment containes multiple Azure Virtual Machines. You need to ensure that a virtual machine named VM1 is accessible from the internet over HTTP. *** Solution: You modify Azure Traffic manager profile. does this meet the goal ?",
+            "choices": [
+                "Yes", 
+                "No"
+            ],
+            "correctAnswerIndex": 1
+        },
+        {
+            "question": "Which of the following correctly define Edge Computing ?",
+            "choices": [
+                "it allows you to secure your application on multiple locations", 
+                "allows customers to run VMs, containers and data services at edge locations",
+                "allows you to create scalable web apps"
+            ],
+            "correctAnswerIndex": 1
+        },
+        {
+            "question": "Azure Key Vault is used to store secrets for --Azure Active Directory(Azure AD)-- user accounts. *** Instructions: If statement is incorrect, select the answer choice that makes the correct statement. ***",
+            "choices": [
+                "No change is needed", 
+                "Azure Active Directory(Azure AD) administrative accouts",
+                "Personally identifiable information (PII)",
+                "Server Applications"
+            ],
+            "correctAnswerIndex": 3
+        },
+        {
+            "question": "From --Azure Cloud Shell-- you can track your company's regulatory standards and regulations, such as ISO27001. *** Instructions: If statement is incorrect, select the answer choice that makes the correct statement. *** ",
+            "choices": [
+                "No change is needed", 
+                "The Microsoft Cloud Partner Portal",
+                "Compliance Manager",
+                "The Trust Center"
+            ],
+            "correctAnswerIndex": 3
+        },
+        {
+            "question": "The only way to use Azure resources is to purchase an Azure account before you can use them ?",
+            "choices": [
+                "True", 
+                "False"
+            ],
+            "correctAnswerIndex": 1
+        },
+        {
+            "question": "Azure Active Directory can be used to grant or deny access based on the originating IP address?",
+            "choices": [
+                "True", 
+                "False"
+            ],
+            "correctAnswerIndex": 1
+        },
+        {
+            "question": "Azure Firewall can be used to grant or deny access based on the originating IP address?",
+            "choices": [
+                "True", 
+                "False"
+            ],
+            "correctAnswerIndex": 0
+        },
+        {
+            "question": "Which of the following is the correct statement ?",
+            "choices": [
+                "Private Cloud = Public Cloud + Hybrid Cloud", 
+                "Public Cloud = Private Cloud + Hybrid Cloud", 
+                "Hybrid Cloud = Public Cloud + Private Cloud"
+            ],
+            "correctAnswerIndex": 2
+        },
+        {
+            "question": "Which is one of the advantages of moving your infrastructure to Azure ?",
+            "choices": [
+                "The move reduces CapEx", 
+                "The move reduces OpEx", 
+                "The move allows for complete control of infrastructure resources"
+            ],
+            "correctAnswerIndex": 0
+        },
+        {
+            "question": "Datacenter infrastructure, server/network cost, backup, business contnuity and disaster recovery cost, technical personal cost are example of ?",
+            "choices": [
+                "CapEx", 
+                "OpEx"
+            ],
+            "correctAnswerIndex": 0
+        },
+        {
+            "question": "Azure Reserved VM instances are examples of CapEx pricing model.",
+            "choices": [
+                "True", 
+                "False"
+            ],
+            "correctAnswerIndex": 0
+        },
+        {
+            "question": "Which is refered to as making a service available with no downtime for an extended period of time ?",
+            "choices": [
+                "Agility", 
+                "Fault Tolerance",
+                "High Availability"
+            ],
+            "correctAnswerIndex": 2
+        },
+        {
+            "question": "Which cloud provides the greatest degree of ownership and control ?",
+            "choices": [
+                "Public Cloud", 
+                "Private Cloud",
+                "Hybrid Cloud"
+            ],
+            "correctAnswerIndex": 1
+        },
+        {
+            "question": "Which cloud provides the greatest degree of flexibility ?",
+            "choices": [
+                "Public Cloud", 
+                "Private Cloud",
+                "Hybrid Cloud"
+            ],
+            "correctAnswerIndex": 2
+        },
+        {
+            "question": "Which of the following describes a public cloud ?",
+            "choices": [
+                "is owned and operated by the organization that uses resources from the cloud", 
+                "Let organizations run apps in the cloud or on-prem",
+                "Provides resources and services to multiple organizations and users, who conncet through a secure network connection"
+            ],
+            "correctAnswerIndex": 2
+        },
+        {
+            "question": "You have legacy apps that require specialized mainframe hardware, and you have newer shared apps. which cloud woul be best foe you ?",
+            "choices": [
+                "Hybrid Cloud", 
+                "Private Cloud",
+                "Public Cloud"
+            ],
+            "correctAnswerIndex": 0
+        },
+        {
+            "question": "MS 365 is an example of ?",
+            "choices": [
+                "IaaS", 
+                "PaaS",
+                "Saas"
+            ],
+            "correctAnswerIndex": 2
+        },
+        {
+            "question": "Which of the following requires most user management of cloud services ?",
+            "choices": [
+                "IaaS", 
+                "PaaS",
+                "Saas"
+            ],
+            "correctAnswerIndex": 0
+        },
+        {
+            "question": "You're developing an app and want to focus on building, testing, deploying. you don't wanna worry about managing underlying hardware or software. which cloud service is best for you ?",
+            "choices": [
+                "IaaS", 
+                "PaaS",
+                "Saas"
+            ],
+            "correctAnswerIndex": 1
+        },
+        {
+            "question": "In which type of cloud model are all hardware resources owned by a third party and shared between multiple tenants",
+            "choices": [
+                "Hybrid Cloud", 
+                "Private Cloud",
+                "Public Cloud"
+            ],
+            "correctAnswerIndex": 2
+        },
+        {
+            "question": "You are running a VM in Azure Cloud. Which model reflects how the resource is managed ?",
+            "choices": [
+                "User Responsibility Model", 
+                "Azure Responsibility Model",
+                "Shared Responsibility Model"
+            ],
+            "correctAnswerIndex": 2
+        },
+        {
+            "question": "An Azure administrator plans to run a PowerShell script that creates Azure resources. You need to recommend which computer config to use to run the script ? **Solution: Run the script from a computer that runs Linux and has Azure CLI tools installed. Does this meet the goal ?",
+            "choices": [
+                "Yes", 
+                "No"
+            ],
+            "correctAnswerIndex": 1
+        },
+        {
+            "question": "An Azure administrator plans to run a PowerShell script that creates Azure resources. You need to recommend which computer config to use to run the script ? **Solution: Run the script from a computer that runs ChromeOS and uses Azure Cloud Shell. Does this meet the goal ?",
+            "choices": [
+                "Yes", 
+                "No"
+            ],
+            "correctAnswerIndex": 0
+        },
+        {
+            "question": "An Azure administrator plans to run a PowerShell script that creates Azure resources. You need to recommend which computer config to use to run the script ? **Solution: Run the script from a computer that runs macOS and has PowerShell Core6.0. Does this meet the goal ?",
+            "choices": [
+                "Yes", 
+                "No"
+            ],
+            "correctAnswerIndex": 1
+        },
+        {
+            "question": "An Azure administrator plans to run a PowerShell script that creates Azure resources. You need to recommend which computer config to use to run the script ? **Solution: You use Bash in Azure Cloud Shell. Does this meet the goal ?",
+            "choices": [
+                "Yes", 
+                "No"
+            ],
+            "correctAnswerIndex": 0
         }
     ]
 }
