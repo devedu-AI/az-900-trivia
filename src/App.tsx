@@ -49,7 +49,7 @@ function App() {
     <>
       <div className='App container'>
         <h1>AZ 900 Trivia</h1>
-        <p style={{fontWeight: '500', fontSize: '1.2em', borderBottom: '1px solid #666666', padding: '0 1em 1em 1em'}}>A Comprehensive exam cram for the AZ 900 certification exam. Dive into a curated collection of exam-focused questions designed to enhance your understanding of Microsoft Azure fundamentals.</p>
+        <p style={{fontFamily: 'Inter Tight',fontWeight: '500', fontSize: '14px', borderBottom: '1px solid #666666', padding: '0 1em 1em 1em'}}>A Comprehensive exam cram for the AZ 900 certification exam. Dive into a curated collection of exam-focused questions designed to enhance your understanding of Microsoft Azure fundamentals.</p>
         <StatBar
           currentQuestion={currentQuestionIndex + 1}
           totalQuestions={allQuestions.questions.length}
@@ -62,7 +62,7 @@ function App() {
         { waitingToAdvance && <button className='btn-next' onClick={advance}>Next<i className="fa-solid fa-arrow-right"></i></button>}  
       </div>
         <footer>
-          Made with 💗 by <a href='https://github.com/Tauhid-Patel' target='_blank'>Tauhid</a>
+          Made with 💗 by <a href='https://github.com/tauhidpatel' target='_blank'>Tauhid</a>
         </footer>
     </>
   )
