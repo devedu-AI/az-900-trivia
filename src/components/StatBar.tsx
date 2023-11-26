@@ -11,11 +11,9 @@ function StatBar(props: Props) {
     return (
         <div className="stat-container">
             <div className="stat-score">
-                <p style={{fontWeight: '600'}}>Questions: {props.currentQuestion} of {props.totalQuestions}</p>
+                <p style={{fontWeight: '600', fontSize: '14px'}}>Questions: {props.currentQuestion} of {props.totalQuestions}</p>
             </div>
             <div className="stat-score-two">
-                {/* <p>correct <span className='correct-answer'>{props.correct}</span></p>
-                <p>incorrect <span className='incorrect-answer'>{props.incorrect}</span></p> */}
                 <button type="button" className="btn btn-success" style={{marginRight: '1em'}}>
                 Right <span style={{marginLeft: '1em'}} className="badge text-bg-light">{props.correct}</span>
                 </button>
